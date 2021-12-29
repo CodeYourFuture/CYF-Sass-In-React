@@ -25,7 +25,9 @@
   }
   &__picture {
     height: fit-content;
-    background-color: var(--theme-color-pop);
-    mix-blend-mode: multiply;
+    @include gradient;
+  }
+  &__image {
+    mix-blend-mode: luminosity;
   }
 }

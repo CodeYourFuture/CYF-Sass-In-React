@@ -8,7 +8,7 @@ const Card = ({ id, heading, summary, picture, action }) => (
             <h3 className="c-card__heading">{heading}</h3>
             <p className="c-card__summary">{summary}</p>
             <DivButton className="c-card__action" text={action}></DivButton>
-            <Picture picture={picture} className="c-card__picture"></Picture>
+            <Picture picture={picture} block="c-card"></Picture>
         </a>
     );
 
