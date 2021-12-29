@@ -1,0 +1,27 @@
+:root {
+  --theme-type-display: "Roboto Mono", Monaco, system-ui, serif;
+  --theme-type-copy: var(--theme-type-display);
+  --theme-type-size: 1rem;
+  --theme-type-scale: 0.75;
+}
+
+// headings
+//set up your hierarchy with an iterable SASS list - it's a bit like an array in JavaScript
+//https://sass-lang.com/documentation/modules/list
+$heading__levels: 1, 2, 3, 4, 5, 6;
+// make these globally available CSS variables, so you can use them in any component without importing
+:root {
+  // describe the relationship
+  @each $level in $heading__levels {
+    // these are local sass variables (a bit like let) and it only exists inside this loop
+    // https://sass-lang.com/documentation/variables#scope
+    $divisor: 6 - $level;
+    $fontSize: calc(
+      calc(#{$divisor}/ var(--theme-type-scale)) * var(--theme-type-size)
+    );
+    $lineHeight: 1 + (0.1 * $level);
+    --theme-type-heading--#{$level}: 700
+      #{$fontSize}/#{$lineHeight}
+      var(--theme-type-display);
+  }
+}

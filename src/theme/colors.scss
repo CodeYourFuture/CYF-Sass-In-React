@@ -1,0 +1,13 @@
+// you could put these colours in a SASS map and look them up programmatically
+// https://sass-lang.com/documentation/modules/map
+// but is it easier or clearer than writing them out?
+// I think in this case, no. Always choose the simplest, easiest, clearest option
+
+:root {
+  --theme-color-paper: rgba(240, 240, 240, 1);
+  --theme-color-ink: rgba(12, 12, 50, 1);
+  --theme-color-accent: rgba(129, 67, 201, 1);
+  --theme-color-shade: rgba(129, 67, 201, 0.4);
+  --theme-color-brand: #e62a2a;
+  --theme-color-pop: #fc5c7d;
+}
