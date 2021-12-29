@@ -1,0 +1,9 @@
+.c-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: dense;
+  gap: var(--theme-gutter);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

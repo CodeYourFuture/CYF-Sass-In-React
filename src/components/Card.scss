@@ -1,0 +1,31 @@
+@import "../theme/utilities.scss";
+
+.c-card {
+  background-color: var(--theme-color-paper);
+  box-shadow: var(--theme-spacing--1) var(--theme-spacing--3) 0
+    var(--theme-color-accent);
+  height: 100%;
+  @include grid-assign(picture, heading, summary, action);
+  display: grid;
+  grid-template-columns: 0 1fr 0;
+  gap: var(--theme-spacing--2);
+  grid-template-areas:
+    "picture picture picture"
+    ". heading ."
+    ". summary ."
+    ". action .";
+  grid-template-rows: min-content auto 1fr min-content;
+
+  &__heading {
+    font: var(--theme-type-heading--5);
+    margin: 0 0 auto 0;
+  }
+  &__summary {
+    margin: 0 0 auto 0;
+  }
+  &__picture {
+    height: fit-content;
+    background-color: var(--theme-color-pop);
+    mix-blend-mode: multiply;
+  }
+}

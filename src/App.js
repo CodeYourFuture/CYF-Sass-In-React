@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Logo from './components/Logo';
+import './App.scss';
+import CardList from './components/CardList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="c-site">
+      <header className="c-site__header">
+        <Logo></Logo>
+        <h1 className='o-type__heading--3'>SASS in React</h1>
       </header>
+      <main className='c-site__main'>
+        <CardList />
+      </main>
+      <footer className='c-site__footer'></footer>
     </div>
   );
 }

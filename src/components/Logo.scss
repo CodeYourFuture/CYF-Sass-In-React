@@ -1,0 +1,11 @@
+.c-logo {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+
+  &__code {
+  }
+  &__yourfuture {
+    fill: var(--theme-color-paper);
+  }
+}
