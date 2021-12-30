@@ -5,22 +5,30 @@
         "summary": "What this obscure currency can teach you about money.",
         "picture": {
             "fallBack": {
-                "src": "https://placeimg.com/500/290/architecture",
+                "src": "https://picsum.photos/id/1018/300/116.png",
                 "text": "a random image demonstrating the picture element.",
                 "width": "300px",
                 "height": "116px"
             },
             "sources": [
                 {
-                    "srcSet": "https://placeimg.com/300/115/architecture",
+                    "srcSet": "https://picsum.photos/id/1018/900/522.webp",
                     "media": "(min-width:80rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/500/290/architecture",
+                    "srcSet": "https://picsum.photos/id/1018/900/522.png",
+                    "media": "(min-width:80rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/1018/500/290.webp",
                     "media": "(min-width:37.5rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/600/350/architecture",
+                    "srcSet": "https://picsum.photos/id/1018/500/290.png",
+                    "media": "(min-width:37.5rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/1018/650/350.webp",
                     "media": "(max-width:37.5rem)"
                 }
             ]
@@ -34,22 +42,30 @@
         "summary": "Coming live from Madison Square Gardens",
         "picture": {
             "fallBack": {
-                "src": "https://placeimg.com/500/290/any",
+                "src": "https://picsum.photos/id/674/300/116.png",
                 "text": "a random image demonstrating the picture element.",
                 "width": "300px",
                 "height": "116px"
             },
             "sources": [
                 {
-                    "srcSet": "https://placeimg.com/300/115/any",
+                    "srcSet": "https://picsum.photos/id/674/900/522.webp",
                     "media": "(min-width:80rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/500/290/any",
+                    "srcSet": "https://picsum.photos/id/674/900/522.png",
+                    "media": "(min-width:80rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/674/500/290.webp",
                     "media": "(min-width:37.5rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/600/350/any",
+                    "srcSet": "https://picsum.photos/id/674/500/290.png",
+                    "media": "(min-width:37.5rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/674/650/350.webp",
                     "media": "(max-width:37.5rem)"
                 }
             ]
@@ -63,22 +79,30 @@
         "summary": " ",
         "picture": {
             "fallBack": {
-                "src": "https://placeimg.com/500/290/umbrella",
+                "src": "https://picsum.photos/id/669/300/116.png",
                 "text": "a random image demonstrating the picture element.",
                 "width": "300px",
                 "height": "116px"
             },
             "sources": [
                 {
-                    "srcSet": "https://placeimg.com/300/115/umbrella",
+                    "srcSet": "https://picsum.photos/id/669/900/522.webp",
                     "media": "(min-width:80rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/500/290/umbrella",
+                    "srcSet": "https://picsum.photos/id/669/900/522.png",
+                    "media": "(min-width:80rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/669/500/290.webp",
                     "media": "(min-width:37.5rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/600/350/umbrella",
+                    "srcSet": "https://picsum.photos/id/669/500/290.png",
+                    "media": "(min-width:37.5rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/669/650/350.webp",
                     "media": "(max-width:37.5rem)"
                 }
             ]
@@ -92,22 +116,30 @@
         "summary": "Cancelled until further notice.",
         "picture": {
             "fallBack": {
-                "src": "https://placeimg.com/500/290/nature",
+                "src": "https://picsum.photos/id/22/300/116.png",
                 "text": "a random image demonstrating the picture element.",
                 "width": "300px",
                 "height": "116px"
             },
             "sources": [
                 {
-                    "srcSet": "https://placeimg.com/300/115/nature",
+                    "srcSet": "https://picsum.photos/id/22/900/522.webp",
                     "media": "(min-width:80rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/500/290/nature",
+                    "srcSet": "https://picsum.photos/id/22/900/522.png",
+                    "media": "(min-width:80rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/22/500/290.webp",
                     "media": "(min-width:37.5rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/600/350/nature",
+                    "srcSet": "https://picsum.photos/id/22/500/290.png",
+                    "media": "(min-width:37.5rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/22/650/350.webp",
                     "media": "(max-width:37.5rem)"
                 }
             ]
@@ -121,22 +153,30 @@
         "summary": "You can now view cyf-sass-react in the browser.",
         "picture": {
             "fallBack": {
-                "src": "https://placeimg.com/500/290/tech",
+                "src": "https://picsum.photos/id/1032/300/116.png",
                 "text": "a random image demonstrating the picture element.",
                 "width": "300px",
                 "height": "116px"
             },
             "sources": [
                 {
-                    "srcSet": "https://placeimg.com/300/115/tech",
+                    "srcSet": "https://picsum.photos/id/1032/900/522.webp",
                     "media": "(min-width:80rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/500/290/tech",
+                    "srcSet": "https://picsum.photos/id/1032/900/522.png",
+                    "media": "(min-width:80rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/1032/500/290.webp",
                     "media": "(min-width:37.5rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/600/350/tech",
+                    "srcSet": "https://picsum.photos/id/1032/500/290.png",
+                    "media": "(min-width:37.5rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/1032/650/350.webp",
                     "media": "(max-width:37.5rem)"
                 }
             ]
@@ -150,22 +190,30 @@
         "summary": "Interestingly, no gophers were harmed.",
         "picture": {
             "fallBack": {
-                "src": "https://placeimg.com/500/290/animals",
+                "src": "https://picsum.photos/id/1025/300/116.png",
                 "text": "a random image demonstrating the picture element.",
                 "width": "300px",
                 "height": "116px"
             },
             "sources": [
                 {
-                    "srcSet": "https://placeimg.com/300/115/animals",
+                    "srcSet": "https://picsum.photos/id/1025/900/522.webp",
                     "media": "(min-width:80rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/500/290/animals",
+                    "srcSet": "https://picsum.photos/id/1025/900/522.png",
+                    "media": "(min-width:80rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/1025/500/290.webp",
                     "media": "(min-width:37.5rem)"
                 },
                 {
-                    "srcSet": "https://placeimg.com/600/350/animals",
+                    "srcSet": "https://picsum.photos/id/1025/500/290.png",
+                    "media": "(min-width:37.5rem)"
+                },
+                {
+                    "srcSet": "https://picsum.photos/id/1025/650/350.webp",
                     "media": "(max-width:37.5rem)"
                 }
             ]
