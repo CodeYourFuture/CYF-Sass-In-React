@@ -1,7 +1,7 @@
 import './Logo.scss';
 
 const Logo = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 621.64 155.81" className='c-logo'>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 621.64 155.81" className='c-logo' alt="Code Your Future.">
      <linearGradient id="gradient">
     <stop offset="0%" stop-color="var(--theme-color-brand)" />
     <stop offset="100%" stop-color="var(--theme-color-accent)"/>

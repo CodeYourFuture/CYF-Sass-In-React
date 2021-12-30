@@ -25,3 +25,10 @@ $heading__levels: 1, 2, 3, 4, 5, 6;
       var(--theme-type-display);
   }
 }
+
+// this example is about exploring SASS and describing relationships in code
+// on a real production site, you might do something like
+// export all the defined type sizes from Figma
+// as design tokens
+// but that is outside the scope of this example
+// https://www.youtube.com/watch?v=wtTstdiBuUk

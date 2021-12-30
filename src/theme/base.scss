@@ -19,14 +19,16 @@ $heading__levels: 1, 2, 3, 4, 5, 6;
 }
 
 a {
+  box-shadow: 0 0.275em 0 var(--theme-color-shade);
+  transition: box-shadow 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-decoration: none;
+
   &:link,
   &:visited,
-  &:hover,
-  &:focus {
+  &:focus,
+  &:hover {
     color: var(--theme-color-ink);
     text-decoration: none;
-    box-shadow: 0 0.275em 0 var(--theme-color-shade);
-    transition: box-shadow 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   &:focus,
   &:hover {

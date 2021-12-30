@@ -1,4 +1,4 @@
-@import "theme/global.scss";
+@import "theme/utilities.scss";
 
 .c-site {
   @include grid-assign(header, main, footer);
@@ -21,7 +21,6 @@
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-items: space-between;
     gap: var(--theme-gutter);
     padding: var(--theme-gutter) 0;
   }

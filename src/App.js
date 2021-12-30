@@ -10,6 +10,7 @@ function App() {
         <h1 className='c-site__name o-type__heading--3'>SASS in React</h1>
       </header>
       <main className='c-site__main'>
+        <h2 class="o-type__invisible">List of cards</h2>
         <CardList />
       </main>
       <footer className='c-site__footer'></footer>
