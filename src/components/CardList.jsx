@@ -12,6 +12,7 @@ const CardList = () => <ol className="c-list">
                     summary={card.summary}
                     action={card.action}
                     picture={card.picture}
+                    id={card.id}
                 />
             </li>
         })

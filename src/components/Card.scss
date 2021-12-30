@@ -2,7 +2,7 @@
 
 .c-card {
   background-color: var(--theme-color-paper);
-  box-shadow: var(--theme-spacing--1) var(--theme-spacing--3) 0
+  box-shadow: var(--theme-spacing--1) var(--theme-spacing--2) 0
     var(--theme-color-accent);
   height: 100%;
   @include grid-assign(picture, heading, summary, action);

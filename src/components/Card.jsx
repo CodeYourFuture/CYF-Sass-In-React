@@ -4,10 +4,10 @@ import Picture from './Picture';
 import './Card.scss'
 
 const Card = ({ id, heading, summary, picture, action }) => (
-        <a href={id} className="c-card">
+        <a href={`/manifestos/${id}`} className="c-card">
             <h3 className="c-card__heading">{heading}</h3>
             <p className="c-card__summary">{summary}</p>
-            <DivButton className="c-card__action" text={action}></DivButton>
+            <DivButton className="c-card__action" text={action + ' → '}></DivButton>
             <Picture picture={picture} block="c-card"></Picture>
         </a>
     );
