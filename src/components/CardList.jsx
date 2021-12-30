@@ -13,6 +13,7 @@ const CardList = () => <ol className="c-list">
                     action={card.action}
                     picture={card.picture}
                     id={card.id}
+                    lazyLoading={index > 2 ? "lazy": "eager"}
                 />
             </li>
         })
