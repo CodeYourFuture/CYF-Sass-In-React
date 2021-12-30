@@ -9,7 +9,7 @@
   @include grid-assign(picture, heading, summary, action);
   display: grid;
   grid-template-columns: 0 1fr 0;
-  gap: var(--theme-spacing--2);
+  gap: var(--theme-spacing--1) var(--theme-spacing--2);
   grid-template-areas:
     "picture picture picture"
     ". heading ."
@@ -28,12 +28,17 @@
 
   // now let's handle the elements inside this component
 
-  &__heading,
-  &__summary {
+  &__heading {
+    font-size: var(--theme-type-size--4);
+    //could you use a utility class for the above type instead? Look in type.scss
     margin: 0 0 auto 0;
   }
+
+  &__summary {
+    margin: 0 0 var(--theme-type-size--6) 0;
+  }
   &__picture {
-    height: fit-content;
+    height: fit-content; // this creates a gradient stripe border - can you think why?
     @include gradient;
   }
   &__image {

@@ -1,4 +1,3 @@
-import '@csstools/normalize.css';
 import './App.scss';
 import Logo from './components/Logo';
 import CardList from './components/CardList';

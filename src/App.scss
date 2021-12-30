@@ -9,10 +9,7 @@
     ". header ."
     ". main   ."
     ". footer .";
-  grid-template-columns: minmax(var(--theme-gutter), auto) minmax(auto, 1180px) minmax(
-      var(--theme-gutter),
-      auto
-    );
+  grid-template-columns: minmax(0, auto) minmax(auto, 1180px) minmax(0, auto);
 
   // try breaking these out into Region components
 
