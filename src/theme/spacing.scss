@@ -1,9 +1,8 @@
 $spacing__levels: 1, 2, 3, 4, 5, 6;
-
 :root {
   // you could choose to compute some values directly in SASS
   // think about why you might choose to do that and what the consequences might be
-  // what math do you want to do in the browser
+  // what math do you want to do in the browser?
   @each $size in $spacing__levels {
     --theme-spacing--#{$size}: clamp(
       #{($size * 2) * 1px},
@@ -15,6 +14,6 @@ $spacing__levels: 1, 2, 3, 4, 5, 6;
   // https://sass-lang.com/documentation/interpolation
 
   // you could also include some design shorthands like
-
   --theme-gutter: var(--theme-spacing--3);
+  // but be careful! What is the value of strictly regular names?
 }
