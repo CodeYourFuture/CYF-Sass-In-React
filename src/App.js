@@ -10,7 +10,7 @@ function App() {
         <h1 className='c-site__name'>SASS in React</h1>
       </header>
       <main className='c-site__main'>
-        <h2 class="o-type__invisible">List of cards showing dummy data</h2>
+        <h2 className="o-type__invisible">List of cards showing dummy data</h2>
         <CardList />
       </main>
       <footer className='c-site__footer'><h4><a href="https://github.com/CodeYourFuture/CYF-Sass-In-React">← repo</a></h4></footer>
