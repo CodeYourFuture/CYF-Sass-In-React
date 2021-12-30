@@ -31,4 +31,7 @@
   &__footer {
     width: 100%;
   }
+  &__footer {
+    padding: var(--theme-spacing--6) 0;
+  }
 }

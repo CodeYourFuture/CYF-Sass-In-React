@@ -1,10 +1,11 @@
 @import "../theme/utilities.scss";
 
+// notice how we only deal with the inside of the card
+// its placement on the page is not mentioned
+// the inside of the component and the outside of the component don't know anything about each other
+// the inside of this component does not know how big it is
+
 .c-card {
-  background-color: var(--theme-color-paper);
-  box-shadow: var(--theme-spacing--1) var(--theme-spacing--2) 0
-    var(--theme-color-accent);
-  height: 100%;
   @include grid-assign(picture, heading, summary, action);
   display: grid;
   grid-template-columns: 0 1fr 0;
@@ -16,10 +17,18 @@
     ". action .";
   grid-template-rows: min-content auto 1fr min-content;
 
-  &__heading {
-    font: var(--theme-type-heading--5);
-    margin: 0 0 auto 0;
-  }
+  // on a real production site, colour rules like this might be controlled by helper classes
+  // and taken out of this component
+  // so all you would see are positioning/layout rules
+  // why don't you try refactoring to make that happen
+  background-color: var(--theme-color-paper);
+  box-shadow: var(--theme-spacing--1) var(--theme-spacing--2) 0
+    var(--theme-color-accent);
+  height: 100%;
+
+  // now let's handle the elements inside this component
+
+  &__heading,
   &__summary {
     margin: 0 0 auto 0;
   }

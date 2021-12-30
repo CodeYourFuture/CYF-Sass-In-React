@@ -13,15 +13,15 @@
             "sources": [
                 {
                     "srcSet": "https://placeimg.com/300/115/architecture",
-                    "media": "(min-width:1280px)"
+                    "media": "(min-width:80rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/500/290/architecture",
-                    "media": "(min-width:600px)"
+                    "media": "(min-width:37.5rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/600/350/architecture",
-                    "media": "(max-width:600px)"
+                    "media": "(max-width:37.5rem)"
                 }
             ]
         },
@@ -42,15 +42,15 @@
             "sources": [
                 {
                     "srcSet": "https://placeimg.com/300/115/any",
-                    "media": "(min-width:1280px)"
+                    "media": "(min-width:80rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/500/290/any",
-                    "media": "(min-width:600px)"
+                    "media": "(min-width:37.5rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/600/350/any",
-                    "media": "(max-width:600px)"
+                    "media": "(max-width:37.5rem)"
                 }
             ]
         },
@@ -71,15 +71,15 @@
             "sources": [
                 {
                     "srcSet": "https://placeimg.com/300/115/umbrella",
-                    "media": "(min-width:1280px)"
+                    "media": "(min-width:80rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/500/290/umbrella",
-                    "media": "(min-width:600px)"
+                    "media": "(min-width:37.5rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/600/350/umbrella",
-                    "media": "(max-width:600px)"
+                    "media": "(max-width:37.5rem)"
                 }
             ]
         },
@@ -100,15 +100,15 @@
             "sources": [
                 {
                     "srcSet": "https://placeimg.com/300/115/nature",
-                    "media": "(min-width:1280px)"
+                    "media": "(min-width:80rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/500/290/nature",
-                    "media": "(min-width:600px)"
+                    "media": "(min-width:37.5rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/600/350/nature",
-                    "media": "(max-width:600px)"
+                    "media": "(max-width:37.5rem)"
                 }
             ]
         },
@@ -129,15 +129,15 @@
             "sources": [
                 {
                     "srcSet": "https://placeimg.com/300/115/tech",
-                    "media": "(min-width:1280px)"
+                    "media": "(min-width:80rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/500/290/tech",
-                    "media": "(min-width:600px)"
+                    "media": "(min-width:37.5rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/600/350/tech",
-                    "media": "(max-width:600px)"
+                    "media": "(max-width:37.5rem)"
                 }
             ]
         },
@@ -158,15 +158,15 @@
             "sources": [
                 {
                     "srcSet": "https://placeimg.com/300/115/animals",
-                    "media": "(min-width:1280px)"
+                    "media": "(min-width:80rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/500/290/animals",
-                    "media": "(min-width:600px)"
+                    "media": "(min-width:37.5rem)"
                 },
                 {
                     "srcSet": "https://placeimg.com/600/350/animals",
-                    "media": "(max-width:600px)"
+                    "media": "(max-width:37.5rem)"
                 }
             ]
         },
