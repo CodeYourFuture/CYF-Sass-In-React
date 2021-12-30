@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It has minimal changes from the defaults, just one extra package: "sass", and engines.
+
+This is a front end sample, so it doesn't have a database.
+It's just using mock JSON to populate the view, from data/cards.json
+
 ## Available Scripts
 
 In the project directory, you can run:
