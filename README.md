@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with CYF SASS in React
+
+Deployed here: https://cyf-sass-in-react.netlify.app/ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,6 +8,16 @@ It has minimal changes from the defaults, just one extra package: "sass", and en
 
 This is a front end sample, so it doesn't have a database.
 It's just using mock JSON to populate the view, from data/cards.json
+
+It is extensively commented. Go through the /theme directory to look at the core pieces:
+- type
+- colours
+- spacing
+- utilities
+
+Then look at the component scss. 
+
+There are suggestions for improvements and iterations. How can you develop it further?
 
 ## Available Scripts
 
